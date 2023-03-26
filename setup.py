@@ -10,6 +10,6 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
   name='pyids',
   packages=['pyids', "pyids.data_structures", "pyids.model_selection", "pyids.algorithms", "pyids.algorithms.optimizers", "pyids.utils", "pyids.rule_mining"],
-  install_requires=["requests", 'pandas', 'numpy', 'sklearn','pyarc', 'pyfim'],
+  install_requires=["requests", 'pandas', 'numpy', 'scikit-learn','pyarc', 'pyfim'],
   version='0.0.1'
 )
